@@ -14,11 +14,11 @@ class CreateCategoriesTable extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name',255);
+            $table->string('name', 255)->unique();
             $table->string('slug');
-            $table->text('descripcion');
-            $table->string('color');
-            //$table->timestamps();
+            $table->text('description');
+            $table->string('color', 30);
+            //$table->timestamps(); este metodo crearia un metodo 
         });
     }
 

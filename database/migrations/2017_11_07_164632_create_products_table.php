@@ -14,12 +14,12 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name',255);
+            $table->string('name', 255);
             $table->string('slug');
-            $table->text('descripcion');
-            $table->string('extract',300);
-            $table->decimal('price',5,2);
-            $table->string('image',300);
+            $table->text('description');
+            $table->string('extract', 300);
+            $table->decimal('price', 5, 2);
+            $table->string('image', 300);
             $table->boolean('visible');
            //*****unsigned(); brepresenta una llave foranea
             $table->integer('category_id')->unsigned();
@@ -28,7 +28,7 @@ class CreateProductsTable extends Migration
                   ->on('categories')
                   ->onDelete('cascade');
            //*****Cuando se borre una categoria se borran todos los productos relacionados con esta categoria
-            $table->timestamps('visible');
+            $table->timestamps();
             //$table->timestamps();
         });
     }
