@@ -10,11 +10,13 @@ use App\Product;
 
 class StoreController extends Controller
 {
-  public function index ()
+  public function index()
   {
-    $products = Prduct::all();
-    dd($products);
-    return"Hola mundp!!";
+   
+     $products = Product::all();
+    //dd($products);
+    return view('store.index', compact('products'));
+    
   }
-    //
+    
 }
