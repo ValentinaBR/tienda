@@ -9,20 +9,20 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="https://www.avon.cl/dam/avon-cl/images/header/encabezados/Banner-seccion-Maquillaje.jpg" alt="slide1">
+      <img src="http://academianewstyle.com/ans/wp-content/uploads/2013/08/Slider-maquillaje.jpg" alt="slide1">
       <div class="carousel-caption">
         Slide 1
       </div>
     </div>
     <div class="item active">
-      <img src="https://www.tematicalarevista.com/wp-content/uploads/2017/07/Maquillaje.jpg" alt="slide2">
+      <img src="http://copedisperfumeria.com/Media/copedisperfumeria/Dayvo/Imagenes/slider1.jpg" alt="slide2">
       <div class="carousel-caption">
         Slide 2
       </div>
     </div>
 
     <div class="item">
-      <img src="https://www.mercadona.es/img-cont/es/-mercadona-maquillaje.jpg" alt=".Slide3">
+      <img src="http://cursosdemaquillajeprofesional.com.mx/wp-content/uploads/2017/07/Curso-de-Maquillaje-Editorial-slider-B-01.jpg" alt=".Slide3">
       <div class="carousel-caption">
         Slide 3
       </div>
