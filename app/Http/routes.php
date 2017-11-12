@@ -11,7 +11,7 @@
 |
 */
 Route::bind('product', function($slug){
-	return APP\product::where('slug', $slug)->first();
+	return App\Product::where('slug', $slug)->first();
 
 });
 
