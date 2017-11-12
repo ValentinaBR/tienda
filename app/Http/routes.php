@@ -32,7 +32,7 @@ Route::get('product/{slug}', [
 
 Route::get('cart/show', [
       'as' => 'cart-show',
-       'uses' => 'CartController@show')
+       'uses' => 'CartController@show'
 ]);
 
 Route::get('cart/add/{product}', [
