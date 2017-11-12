@@ -5,11 +5,12 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  <a class="navbar-brand main-title href="{{ route('home') }}">FiSO</a>
 
   <div class="navbar-collapse collapse show" id="navbarColor01" style="">
    <p class="navbar-text">My laravel store></p>
     <ul class="nav navbar-nav navbar-right">
-     <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> 
+     <li><a href="{{ route('cart-show') }}"><i class="fa fa-shopping-cart"></i></a></li> 
         <li><a href="#">Conocenos</a></li>
         <li><a href="#">AContacto</a></li>
 
