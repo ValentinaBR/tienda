@@ -10,10 +10,6 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::bind('product', function($slug){
-	return APP\product::where('slug', $slug)->first();
-
-});
 
 Route::get('/', [
 	'as' => 'home',
@@ -27,18 +23,10 @@ Route::get('product/{slug}', [
 
 ]);
 
-// carrito
 
 
-Route::get('cart/show', [
-      'as' => 'cart-show',
-       'uses' => 'CartController@show')
-]);
 
-Route::get('cart/add/{product}', [
-       'as' => 'cart-add',
-       'uses' => 'CartController@add'
-   ]);
+
 
 
 
