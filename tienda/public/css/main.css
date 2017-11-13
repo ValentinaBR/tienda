@@ -1,0 +1,104 @@
+body
+{
+	background: #FADBD8;
+font-family: 'EB Garamond', serif;
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+font-family: 'Chewy', cursive;
+}
+
+/*Nav......*/
+.main-title{
+	color: #2471A3 !important;
+   font-size: 26px;
+}
+
+
+/*Footer ......*/
+
+footer{
+	background: #2471A3;
+	text-align: center;
+}
+
+footer p{
+	text-align: justify;
+}
+
+
+ul.redes li
+{
+	display: inline-block;
+}
+ul.redes li a
+{
+	color: #EC7063;
+}
+
+.avatar
+{
+	border: 5px solid #EC7063;
+	border-radius: 50%;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+/*Catalogo......*/
+#products {
+position: relative;
+max-width: 100%;
+width: 100%;
+
+}
+
+img {
+width: 100%;
+max-width: 100%;
+height: auto;
+
+}
+
+.white-panel {
+position: absolute;
+background: white;
+box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+padding: 10px;
+
+}
+
+.white-panel h1 {
+font-size: 1em;
+
+}
+
+.white-panel h1 a {
+color: #A92733;
+
+}
+
+.white-panel:hover {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+margin-top: -5px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+
+}
+
+/* Detalle del producto.....*/
+.product-block{
+	background: #fff;
+	border-radius:  1em;
+	padding: 1em;
+
+}
+
+/* Slider.....*/
+.navbar{
+	margin-bottom: 0;
+}
