@@ -22,7 +22,7 @@ public function show()
 }
 
 // add item
-public function add(Product $product)
+public function add(Product $Product)
 {
 	$cart = \Session::get('cart');
 	$product->quantity = 1;
@@ -30,5 +30,4 @@ public function add(Product $product)
 	\Session::put('cart', $cart);
 
 	return redirect()->route('cart-show');
-}
 }
